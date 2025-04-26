@@ -11,7 +11,7 @@ jobs:
   terraform:
     uses: ./.github/workflows/terraform.yml
     with:
-      enviroment: dev
+      environment: dev
       aws-assume-role-arn: "arn:aws:iam::946851367802:role/github-actions-thi899-pipeline"
       aws-region: "sa-east-1"
       aws-statefile-s3-bucket: "thi899-sa-east-1-terraform-statefile"
